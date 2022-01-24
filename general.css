@@ -1,0 +1,59 @@
+.header{
+    height: 30%;
+ }
+
+.inner-header{
+    display:table;
+    width: 100%;
+    height: 100%;
+}
+
+.logo-container{
+    display: table-cell;
+    background-color: #101010;
+    color: white;
+    padding: 0px 10px;
+}
+
+.navigation{
+    display: table-cell;
+    background-color: #101010;
+    position: absolute;
+    right: 2%;
+}
+ 
+.navigation a{
+    height: 100%;
+    float: left;
+    padding: 0px 20px;
+    
+}
+ 
+.navigation a li{
+    font-size: 20px;
+    color: white;
+}
+ 
+.navigation a:hover{
+    background-color: gray;
+    color: #101010;
+}
+
+.content{
+    width: 86%;
+    padding: 0% 7%;
+}
+
+.content #header_hobby{
+    font-size: 30px;
+}
+
+.content img{
+    float: left;
+    margin-right: 20px
+    
+}
+
+.content a{
+    padding: 10px 10px;
+}
